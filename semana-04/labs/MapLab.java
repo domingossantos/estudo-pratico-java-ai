@@ -1,0 +1,3 @@
+package course.week4;
+import java.util.*;import java.util.concurrent.*;
+public final class MapLab {enum Region{NORTH,SOUTH}public static void main(String[]a){var insertion=new LinkedHashMap<String,Integer>();insertion.put("b",2);insertion.put("a",1);System.out.println("insertion="+insertion);System.out.println("sorted="+new TreeMap<>(insertion));var counts=new ConcurrentHashMap<String,Integer>();java.util.stream.IntStream.range(0,1000).parallel().forEach(i->counts.merge("views",1,Integer::sum));System.out.println("views="+counts.get("views"));var regions=new EnumMap<Region,Integer>(Region.class);regions.put(Region.NORTH,10);System.out.println("regions="+regions);}}

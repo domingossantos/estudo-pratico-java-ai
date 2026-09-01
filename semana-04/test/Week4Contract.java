@@ -1,0 +1,3 @@
+package course.week4;
+import java.util.List;
+public final class Week4Contract {public static void main(String[]a){var x=new CatalogIndex();var p1=new CatalogIndex.Product("1","A");var p2=new CatalogIndex.Product("2","B");var p3=new CatalogIndex.Product("3","C");x.add(p1);check(x.find("1").orElseThrow().equals(p1),"lookup");try{x.snapshot().put("x",p1);throw new AssertionError("mutable");}catch(UnsupportedOperationException ok){}x.cache(p1);x.cache(p2);x.cache(p1);x.cache(p3);check(x.cachedIds().equals(List.of("1","3")),"LRU order");System.out.println("PASS: 3 map behaviors");}static void check(boolean v,String m){if(!v)throw new AssertionError(m);}}
