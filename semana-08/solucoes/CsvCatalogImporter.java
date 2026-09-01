@@ -1,0 +1,3 @@
+package course.week8;
+import java.io.IOException;import java.nio.charset.StandardCharsets;import java.nio.file.*;import java.util.*;
+public final class CsvCatalogImporter {public record Product(String id,String name){}public List<Product> importFile(Path path)throws IOException{var lines=Files.readAllLines(path,StandardCharsets.UTF_8);var result=new ArrayList<Product>();for(int i=1;i<lines.size();i++){if(lines.get(i).isBlank())continue;var columns=lines.get(i).split(",",-1);if(columns.length!=2||columns[0].isBlank()||columns[1].isBlank())throw new IOException("Invalid CSV line "+(i+1));result.add(new Product(columns[0].trim(),columns[1].trim()));}return List.copyOf(result);}}

@@ -1,0 +1,2 @@
+package course.week9;
+public final class Week9Contract {record Customer(@MetadataTools.Required String name,@MetadataTools.Sensitive String token){} public static void main(String[]a){var x=new MetadataTools();var text=x.redactRecord(new Customer("Ana","secret"));if(text.contains("secret")||!text.contains("***"))throw new AssertionError("redaction");if(!x.validate(new Customer(" ","x")).equals(java.util.List.of("name is required")))throw new AssertionError("validation");System.out.println("PASS: 2 metadata behaviors");}}
