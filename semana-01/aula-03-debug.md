@@ -14,7 +14,7 @@ Explique a diferença entre observar uma exceção e diagnosticar sua causa.
 
 ### 5–15 min — Importação e navegação
 
-Abra `elitecommerce/pom.xml` como projeto. Localize produção, testes e classe principal. Pratique busca de classe, símbolo, usos e navegação até declaração.
+Abra `commercelab/pom.xml` como projeto. Localize produção, testes e classe principal. Pratique busca de classe, símbolo, usos e navegação até declaração.
 
 ### 15–25 min — Ferramentas de debug
 

@@ -3,8 +3,8 @@ set -euo pipefail
 
 week_dir="$(cd "$(dirname "$0")/.." && pwd)"
 build_dir="$week_dir/build/tests"
-main_dir="$week_dir/elitecommerce/src/main/java"
-test_dir="$week_dir/elitecommerce/src/test/java"
+main_dir="$week_dir/commercelab/src/main/java"
+test_dir="$week_dir/commercelab/src/test/java"
 catalog_source="$main_dir/dev/javaelite/catalog/Catalog.java"
 
 if [[ "${1:-}" == "--solution" ]]; then

@@ -2,7 +2,7 @@
 
 ## Resultado esperado
 
-Modernizar código legado sem alterar seu comportamento e modelar o núcleo do EliteCommerce com tipos imutáveis, hierarquias fechadas e polimorfismo.
+Modernizar código legado sem alterar seu comportamento e modelar o núcleo do CommerceLab com tipos imutáveis, hierarquias fechadas e polimorfismo.
 
 ## Pré-requisitos
 

@@ -50,7 +50,7 @@ Nas aulas de revisão: 10 minutos de recuperação ativa, 40 minutos de desafio 
 
 - **Aula 1:** história, evolução e ecossistema Java. **Prática:** montar uma linha do tempo das versões relevantes e justificar Java para três cenários corporativos.
 - **Aula 2:** JDK, JVM, bytecode, JShell e ferramentas de linha de comando. **Prática:** compilar e inspecionar uma classe com `javac`, `java` e `javap`.
-- **Aula 3:** IntelliJ IDEA/Eclipse, depuração e atalhos. **Prática:** criar o projeto `elitecommerce`, usar breakpoint condicional e corrigir um defeito guiado.
+- **Aula 3:** IntelliJ IDEA/Eclipse, depuração e atalhos. **Prática:** criar o projeto `commercelab`, usar breakpoint condicional e corrigir um defeito guiado.
 - **Aula 4:** diagnóstico de conhecimentos. **Desafio:** implementar um pequeno catálogo em memória, registrando lacunas de sintaxe no diário.
 - **Entrega:** repositório configurado, README inicial e diagnóstico pessoal priorizado.
 
@@ -364,7 +364,7 @@ Nas aulas de revisão: 10 minutos de recuperação ativa, 40 minutos de desafio 
 
 ### Semana 38 — Fundamentos de system design
 
-- **Aula 1:** componentes, requisitos funcionais/não funcionais e estimativas. **Prática:** estimar tráfego e armazenamento do EliteCommerce.
+- **Aula 1:** componentes, requisitos funcionais/não funcionais e estimativas. **Prática:** estimar tráfego e armazenamento do CommerceLab.
 - **Aula 2:** escalabilidade vertical/horizontal, latência e throughput. **Prática:** localizar gargalos e propor medições.
 - **Aula 3:** disponibilidade, consistência, CAP e PACELC. **Prática:** escolher trade-offs por fluxo.
 - **Aula 4:** comunicação REST, gRPC e assíncrona. **Desafio:** desenhar API robusta e evolução compatível.
@@ -457,7 +457,7 @@ Nas aulas de revisão: 10 minutos de recuperação ativa, 40 minutos de desafio 
 ### Semana 48 — Posicionamento e defesa técnica
 
 - **Aula 1:** LinkedIn, SEO, SSI, networking e marca pessoal. **Prática:** reescrever headline/sobre e criar rotina de conexões com valor, sem spam.
-- **Aula 2:** GitHub e expectativas por senioridade (júnior a manager). **Prática:** organizar o EliteCommerce como case, comparando evidências esperadas para pleno, sênior, tech lead, staff e principal.
+- **Aula 2:** GitHub e expectativas por senioridade (júnior a manager). **Prática:** organizar o CommerceLab como case, comparando evidências esperadas para pleno, sênior, tech lead, staff e principal.
 - **Aula 3:** RH, STAR, pontos fracos, salário e negociação. **Prática:** preparar seis histórias STAR e uma faixa salarial sustentada por valor.
 - **Aula 4:** entrevista técnica final. **Desafio:** live coding Java, explicação de arquitetura e system design sob tempo, seguida de retrospectiva.
 - **Entrega:** release `v1.0`, portfólio público ou publicável, currículo/LinkedIn revisados e plano de evolução de 90 dias.

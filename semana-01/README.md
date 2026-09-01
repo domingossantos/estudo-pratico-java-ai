@@ -32,7 +32,7 @@ Se Maven não estiver instalado, registre isso no diário e use os comandos `jav
 
 ## Entrega
 
-- Projeto `elitecommerce` compilando.
+- Projeto `commercelab` compilando.
 - Testes do catálogo passando.
 - Defeito da Aula 3 explicado e corrigido pelo aluno.
 - `LEARNING_LOG.md` preenchido.
@@ -49,7 +49,7 @@ Sem Maven:
 Com Maven:
 
 ```bash
-cd elitecommerce
+cd commercelab
 mvn package
 ../scripts/test.sh
 ```
