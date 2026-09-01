@@ -1,0 +1,39 @@
+# Semana 25 — OAuth2, JWT e segurança
+
+## Resultado esperado
+
+API protegida com matriz de acesso.
+
+## Aulas de 1 hora
+
+### Aula 1 — OAuth2 e OIDC
+
+- **0–10 min:** recuperação ativa e definição do critério de sucesso.
+- **10–25 min:** conceitos, arquitetura e trade-offs.
+- **25–50 min:** prática incremental no CommerceLab.
+- **50–60 min:** validação, decisão registrada e commit do aluno.
+
+### Aula 2 — Resource Server JWT
+
+- **0–10 min:** recuperação ativa e definição do critério de sucesso.
+- **10–25 min:** conceitos, arquitetura e trade-offs.
+- **25–50 min:** prática incremental no CommerceLab.
+- **50–60 min:** validação, decisão registrada e commit do aluno.
+
+### Aula 3 — Autorização e menor privilégio
+
+- **0–10 min:** recuperação ativa e definição do critério de sucesso.
+- **10–25 min:** conceitos, arquitetura e trade-offs.
+- **25–50 min:** prática incremental no CommerceLab.
+- **50–60 min:** validação, decisão registrada e commit do aluno.
+
+### Aula 4 — Testes de tokens e permissões
+
+- **0–10 min:** recuperação ativa e definição do critério de sucesso.
+- **10–25 min:** conceitos, arquitetura e trade-offs.
+- **25–50 min:** prática incremental no CommerceLab.
+- **50–60 min:** validação, decisão registrada e commit do aluno.
+
+## Desafio
+
+Execute [o desafio evolutivo](desafio.md), compare depois com [a referência](solucoes/README.md) e complete [diário](LEARNING_LOG.md) e [rubrica](rubrica.md).
